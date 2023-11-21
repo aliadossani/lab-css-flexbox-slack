@@ -8,7 +8,6 @@
 
   <!-- link the Font Awesome stylesheet - CDN -->
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
-
   <!-- link your styles -->
   <link rel="stylesheet" href="./stylesheets/style.css" />
 
@@ -20,9 +19,9 @@
   <!-- NAVBAR -->
   <nav>
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img src="./images/slack-logo.png" alt="Slack logo" id="slackLogo" />
 
-      <ul>
+      <ul class="burgerElements">
         <li>
           <a href="#">Product</a>
         </li>
@@ -38,7 +37,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="icons">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -61,37 +60,37 @@
 
   <!-- HEADER -->
   <header>
-    <div>
+    <div class="headerText">
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span class="free">Slack is free to try</span> for as long as you'd like</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="signUpOptions">
+        <button class="emailSignUp">SIGN UP WITH EMAIL</button>
 
-        <button>
+        <button class="googleSignUp">
           <img src="./images/logo-google.png" alt="Google logo" />
-          <span>Sign up with Google</span>
+          <span class="googleSignUpText">SIGN UP WITH GOOGLE</span>
         </button>
       </div>
 
     </div>
 
-    <div>
+    <div class="imageContainer">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section class="companyContainer">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div class="companyLogo">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
         <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
+        <img src="./images/logo-nyt.png" alt="New York Times logo" id="newYorkTimesImage" />
         <img src="./images/logo-spotify.png" alt="Spotify logo" />
       </div>
 

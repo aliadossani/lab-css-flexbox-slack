@@ -8,3 +8,146 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* breakpoint for mobile screens */
+@media (max-width: 768px) {
+
+    body {
+        background-color: #540B51;
+        font-family: sans-serif;
+    }
+
+    #newYorkTimesImage {
+        width: 100vw;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        padding-top: 1em;
+        margin: 10px
+    }
+
+    /*hidding the contents for mobile*/
+    .burgerElements {
+        display: none;
+    }
+
+    #slackLogo {
+        height: 30px;
+    }
+
+    .icons button {
+        background: none;
+        border: none;
+    }
+
+    .headerText h1 {
+        text-align: center;
+        padding: 5px;
+        padding-top: 25px;
+        font-size: 3em;
+        color: white;
+        margin: auto;
+    }
+
+    .headerText p {
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-size: 1.4em;
+    }
+
+    /* para text*/
+    .free {
+        color: #ECB12F;
+    }
+
+    .signUpOptions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 10px;
+        margin: auto;
+
+
+    }
+
+    .signUpOptions button {
+        margin-bottom: 10px;
+        border-radius: 5px;
+        height: 50px;
+        font-weight: bold;
+        align-items: center;
+    }
+
+    .emailSignUp {
+        color: #540B51;
+
+    }
+
+    .googleSignUp {
+        display: flex;
+        justify-content: center;
+        background-color: #4285F4;
+        align-items: center;
+        color: #F3EAE2;
+
+    }
+
+    .googleSignUp img {
+        width: 20px;
+        padding: 5px;
+        background-color: #F3EAE2;
+    }
+
+    .googleSignUpText {
+        text-align: center;
+        flex: 1;
+    }
+
+    .imageContainer {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .imageContainer img {
+        height: 400px;
+    }
+
+    .companyContainer {
+        height: 220px;
+        background-color: #F3EAE2;
+        padding: 20px;
+    }
+
+    .companyContainer p {
+        color: #191817;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+
+    .companyLogo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    .companyLogo img {
+        object-fit: contain;
+        padding: 10px;
+        height: 35px;
+        max-width: 50%;
+    }
+
+}
