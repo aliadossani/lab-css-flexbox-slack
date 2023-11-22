@@ -11,6 +11,7 @@ footer links grey: #454245
 body {
     background-color: #540B51;
     font-family: sans-serif;
+    margin: 0;
 }
 
 /* breakpoint for mobile screens */
@@ -27,7 +28,6 @@ body {
         justify-content: space-between;
         padding: 0;
         padding-top: 1em;
-        margin: 10px
     }
 
     /*hidding the contents for mobile*/
@@ -35,8 +35,9 @@ body {
         display: none;
     }
 
-    #slackLogo {
+    .slackLogo {
         height: 30px;
+        padding-left: 10px;
     }
 
     .icons button {
@@ -76,7 +77,7 @@ body {
     }
 
     .signUpOptions button {
-        margin-bottom: 10px;
+        margin: 10px 10px;
         border-radius: 5px;
         height: 50px;
         font-weight: bold;
@@ -85,6 +86,7 @@ body {
 
     .emailSignUp {
         color: #540B51;
+        background-color: white;
 
     }
 
@@ -207,6 +209,7 @@ body {
         font-size: 1.8em;
         display: flex;
         flex-direction: column;
+        padding-bottom: 30px;
     }
 
     .welcome .btn {
@@ -217,16 +220,68 @@ body {
         height: 50px;
         align-items: center;
         margin: 10px;
+        border-radius: 5px;
+
+
     }
 
     .trial {
         color: #540B51;
+        background-color: white;
     }
 
     .sales {
-        color: #F3EAE2;
+        color: white;
         border-color: #F3EAE2;
         background-color: #540B51;
+        margin-bottom: 10px;
+    }
+
+    .footerElements {
+        background-color: white;
+        padding: 30px 10px;
+
+    }
+
+    .footerList {
+        list-style: none;
+        padding-left: 10px;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 300px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .footerList span {
+        color: #2E71A6
+    }
+
+    .region,
+    .download {
+        padding-right: 10px;
+        font-weight: bold;
+
+    }
+
+    .footerElements .footerSocialMediaLinks {
+        flex-direction: row;
+        list-style: none;
+        flex-direction: row;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        font-size: 1.35em
+    }
+
+    .copyrightText {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1em;
     }
 
 }
